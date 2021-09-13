@@ -1,16 +1,13 @@
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+# from flask import Flask
+# from flask_sqlalchemy import SQLAlchemy
+# from Webshop import models
+#
+# app = Flask(__name__)
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db_digiteck.db'
+# db = SQLAlchemy(app)
 
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db_digiteck.db'
-db = SQLAlchemy(app)
 
 
-class Artikel(db.Model):
-    produkt_id = db.Column(db.Integer, primary_key=True, unique=True)
-    produkt_name = db.Column(db.VARCHAR(255))
-    preis = db.Column(db.DECIMAL(8.2))
-    beschreibung = db.Column(db.String)
 
 
 

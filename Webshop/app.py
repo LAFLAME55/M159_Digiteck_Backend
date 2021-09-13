@@ -1,13 +1,13 @@
-import json
-from flask import Flask, jsonify, reqest, Blueprint, render_template, session, redirect, url_for, app
-from sqlalchemy import null, engine
-
-app = Flask(__name__)
-
-
-@app.route('/', methods=['GET'])
-def home():
-    return "Homepage"
+# import json
+# from flask import Flask, jsonify, reqest, Blueprint, render_template, session, redirect, url_for, app
+# from sqlalchemy import null, engine
+#
+# app = Flask(__name__)
+#
+#
+# @app.route('/', methods=['GET'])
+# def home():
+#     return "Homepage"
 
 
 
